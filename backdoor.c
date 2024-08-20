@@ -14,6 +14,7 @@
 
 int sock;
 
+//add keylogger
 // file transfer feature
 // real time camera, video, microphone
 // make a menu for different options on the server
